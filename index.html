@@ -1,92 +1,439 @@
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DJ ELVO | The Baddest DJ</title>
+
+    <title>DJ D'LUXE | The Baddest Selector</title>
+
+    <meta name="description" content="Welcome to the official DJ D'LUXE website. Discover exclusive mixes, music, photos and booking information.">
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<!-- HEADER AND NAVIGATION -->
 <header>
     <nav>
-        <div class="logo">DJ ELVO</div>
-
-        <div class="menu">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#mixes">My Mixes</a>
-            <a href="#gallery">Gallery</a>
-            <a href="#contact">Contact</a>
+        <div class="logo">
+            <img src="logo.png" alt="DJ D'LUXE Logo">
         </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#mixes">My Mixes</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
     </nav>
 </header>
 
-<section class="hero" id="home">
-    <p class="welcome">WELCOME TO THE OFFICIAL WEBSITE</p>
-    <h1>DJ ELVO</h1>
-    <h2>THE BADDEST DJ</h2>
-    <p>Feel the beat. Live the music.</p>
 
-    <a class="btn" href="#mixes">LISTEN TO MY MIXES</a>
+<!-- HERO SECTION -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="welcome">WELCOME TO THE OFFICIAL WEBSITE</p>
+
+        <h1>DJ D'LUXE</h1>
+
+        <h2>THE BADDEST SELECTOR</h2>
+
+        <p class="tagline">
+            Bringing the heat. Controlling the rhythm.
+            Creating unforgettable vibes.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a class="btn" href="#mixes">
+                LISTEN TO MY MIXES
+            </a>
+
+            <a class="btn secondary"
+               href="https://wa.me/254185285876"
+               target="_blank"
+               rel="noopener noreferrer">
+                BOOK DJ D'LUXE
+            </a>
+
+        </div>
+
+        <p class="hero-location">AFROBEATS • CLUB VIBES • LET MUSIC BE OUR THERAPISTS</p>
+
+    </div>
+
 </section>
+
+<!-- ABOUT SECTION -->
 
 <section id="about">
-    <h2>ABOUT DJ ELVO</h2>
+
+    <p class="welcome">GET TO KNOW THE SELECTOR</p>
+
+    <h2>ABOUT <span>DJ D'LUXE</span></h2>
+
     <p>
-        DJ ELVO brings energy, rhythm and unforgettable
-        vibes to every mix and every crowd.
+        Welcome to the world of DJ D'LUXE — THE BADDEST SELECTOR.
+        Primary education : Kamelilo primary ,Eldama Ravine ,Baringo later to Esageri boarding.
+        Highschool education : Uzalendo school, still Baringo County.
+
+        Driven by passion, creativity and a love for music,
+        DJ D'LUXE brings the ultimate entertainment experience.
+
+        From infectious Afrobeats and Amapiano to explosive
+        club anthems, every set is designed to create energy,
+        connect people and keep the dancefloor alive. More thanks to my mom DORCAS JELIMO.
+
+        This is more than music. This is an experience. FEEL THE MUSIC ,FEEL THE BASS
+        ALWAYS MUSIC IS MY THERAPY
     </p>
+
 </section>
+
+
+<!-- MIXES SECTION -->
+
 
 <section id="mixes">
-    <h2>MY LATEST MIXES</h2>
 
-    <p>Listen to my latest music on SoundCloud.</p>
+    <img src="logo.png" alt="DJ D'LUXE Logo" class="mix-logo">
 
-    <iframe
-        width="100%"
-        height="450"
-        scrolling="no"
-        frameborder="no"
-        allow="autoplay"
-        src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/elviskosgei&color=%23ff0000&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
-    </iframe>
+    <p class="welcome">FEEL THE BASS</p>
 
-    <a class="btn"
-       href="https://soundcloud.com/elviskosgei"
-       target="_blank">
-       MORE MIXES
-    </a>
+    <h2>MY <span>MIXES</span></h2>
+
+    <p>Listen to the vibe before downloading your favourite mix!</p>
+
+    <div class="mix-card">
+        <div class="now-playing">
+    <span></span>
+    NOW PLAYING
+</div>
+
+        <img
+            src="mix-cover.png"
+            alt="DJ D'LUXE Afrobeats Mix Cover"
+            class="mix-cover"
+        >
+
+       <h3>DJ D'LUXE - DANCEHALL PLAYLIST</h3>
+
+<p>Non-stop Dancehall • Club Energy • Good Vibes</p>
+
+<div class="audio-player">
+
+    <img src="mix-cover.png" alt="DJ D'LUXE Dancehall Playlist">
+
+    <div class="audio-controls">
+        <h4>DJ D'LUXE - DANCEHALL PLAYLIST</h4>
+
+        <audio controls preload="metadata">
+            <source src="music/DJ DLUXE DANCEHALL PLAYLIST.mp3" type="audio/mpeg">
+            Your browser does not support audio playback.
+        </audio>
+    </div>
+
+</div>
+
+        <a class="btn"
+           href="music/DJ DLUXE DANCEHALL PLAYLIST.mp3"
+           download>
+            DOWNLOAD MIX
+        </a>
+
+    </div>
+
 </section>
 
+
+
+<!-- DJ STATS SECTION -->
+
+<section class="stats">
+
+    <div class="stat">
+        <h3>100+</h3>
+        <p>MIXES</p>
+    </div>
+
+    <div class="stat">
+        <h3>50+</h3>
+        <p>EVENTS</p>
+    </div>
+
+    <div class="stat">
+        <h3>1K+</h3>
+        <p>VIBES</p>
+    </div>
+
+    <div class="stat">
+        <h3>24/7</h3>
+        <p>MUSIC</p>
+    </div>
+
+    <!-- LIVE VIBE SECTION -->
+
+<section class="live-vibe">
+
+    <div class="vibe-content">
+
+        <p class="welcome">THE SOUND OF DJ D'LUXE</p>
+
+        <h2>FEEL THE <span>VIBE</span></h2>
+
+        <p class="vibe-text">
+            Afrobeats • Dancehall • Amapiano • Club Vibes
+        </p>
+
+        <div class="sound-wave">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <p class="vibe-message">
+            TURN UP THE VOLUME. LET THE MUSIC TAKE OVER.
+        </p>
+
+        <a href="#mixes" class="btn">
+            🎧 LISTEN NOW
+        </a>
+
+    </div>
+
+</section>
+    <!-- DJ EXPERIENCE SECTION -->
+
+<section class="experience">
+
+    <p class="welcome">WHAT I BRING</p>
+
+    <h2>THE <span>EXPERIENCE</span></h2>
+
+    <div class="experience-grid">
+
+        <div class="experience-card">
+            <div class="experience-icon">
+                <i class="fa-solid fa-bolt"></i>
+            </div>
+
+            <h3>ENERGY</h3>
+
+            <p>
+                High-energy sets designed to keep the crowd moving
+                from the first beat to the last.
+            </p>
+        </div>
+
+
+        <div class="experience-card">
+            <div class="experience-icon">
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+
+            <h3>SOUND</h3>
+
+            <p>
+                Powerful mixes, clean transitions and sounds
+                that make every moment unforgettable.
+            </p>
+        </div>
+
+
+        <div class="experience-card">
+            <div class="experience-icon">
+                <i class="fa-solid fa-fire"></i>
+            </div>
+
+            <h3>VIBES</h3>
+
+            <p>
+                Afrobeats, Dancehall, Amapiano and club vibes
+                bringing people together through music.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+    <!-- DJ BOOTH SECTION -->
+
+<section class="dj-booth">
+
+    <p class="welcome">WELCOME TO THE BOOTH</p>
+
+    <h2>DJ D'LUXE <span>LIVE</span></h2>
+
+    <div class="booth">
+
+        <!-- DECK 1 -->
+        <div class="deck">
+
+            <div class="deck-top">
+                <span>DECK 01</span>
+                <span class="deck-status">READY</span>
+            </div>
+
+            <div class="turntable">
+                <div class="record">
+                    <div class="record-center"></div>
+                </div>
+            </div>
+
+            <div class="deck-controls">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <!-- MIXER -->
+        <div class="mixer">
+
+            <div class="mixer-title">
+                <span>MIXER</span>
+                <span>LIVE</span>
+            </div>
+
+            <div class="mixer-bars">
+
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+
+            <div class="crossfader">
+                <span></span>
+            </div>
+
+        </div>
+
+
+        <!-- DECK 2 -->
+        <div class="deck">
+
+            <div class="deck-top">
+                <span>DECK 02</span>
+                <span class="deck-status">READY</span>
+            </div>
+
+            <div class="turntable">
+                <div class="record">
+                    <div class="record-center"></div>
+                </div>
+            </div>
+
+            <div class="deck-controls">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <p class="booth-message">
+        TWO DECKS. ONE VISION. UNLIMITED VIBES.
+    </p>
+
+</section>
+
+</section>
+<!-- GALLERY SECTION -->
 <section id="gallery">
-    <h2>MY GALLERY</h2>
+
+    <h2>MY <span>GALLERY</span></h2>
 
     <div class="gallery">
-        <img src="images/dj1.jpg" alt="DJ ELVO">
-        <img src="images/logo.png" alt="DJ ELVO Logo">
+
+        <img src="dj1.jpg" alt="DJ D'LUXE">
+
+        <img src="logo.png" alt="DJ D'LUXE Logo">
+
     </div>
+
 </section>
 
-<section id="contact">
-    <h2>BOOK DJ ELVO</h2>
-    <p>For bookings and collaborations, contact me.</p>
 
-    <div class="socials">
-        <a href="https://wa.me/254185285876" target="_blank">WhatsApp</a>
-        <a href="https://instagram.com/dripper914" target="_blank">Instagram</a>
-        <a href="https://facebook.com/jazzlav" target="_blank">Facebook</a>
-    </div>
+<!-- CONTACT SECTION -->
+<section id="contact">
+
+    <h2>BOOK <span>DJ D'LUXE</span></h2>
+
+    <p>Ready to make your event unforgettable?</p>
+
+<div class="socials">
+
+    <a href="https://wa.me/254185285876"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa-brands fa-whatsapp"></i>
+        WHATSAPP
+    </a>
+
+    <a href="https://instagram.com/dripper914"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa-brands fa-instagram"></i>
+        INSTAGRAM
+    </a>
+
+    <a href="https://www.facebook.com/jazzlav"
+       target="_blank"
+       rel="noopener noreferrer">
+        <i class="fa-brands fa-facebook-f"></i>
+        FACEBOOK
+    </a>
+
+</div>
 
     <p>Phone: +254185285876</p>
+
 </section>
 
+
+<!-- FOOTER -->
 <footer>
-    <p>© 2026 DJ ELVO. THE BADDEST DJ.</p>
+
+    <p>© 2026 DJ D'LUXE. THE BADDEST SELECTOR.</p>
+
 </footer>
+
 
 </body>
 </html>
+
